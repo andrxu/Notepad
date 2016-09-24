@@ -1,7 +1,6 @@
 # Notepad
 
-#docker commands
+## docker commands
 
 docker-machine --version
-
 docker ps
