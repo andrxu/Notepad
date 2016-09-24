@@ -6,7 +6,7 @@ docker-machine create --driver virtualbox --virtualbox-cpu-count 2 --virtualbox-
 
 docker-machine ip {your virtual machine name}
 
-docker-machine ls  // list virtual machine
+docker-machine ls  # list virtual machine
 
 docker-machiine help
 
