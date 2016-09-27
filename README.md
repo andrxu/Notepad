@@ -38,6 +38,15 @@ ls /brokers/topics # check topics
 
 docker exec -it kafaka bash  # go into the container 
 
+# down load cassandra CLI
+./cqlsh `docker-machine ip biddata` 9042
+
+CREATE KEYSPACE “stock” WITH replication = {'class': 'SimpleStrategy', 'replication_factor':1} AND durable_writes = 'true';
+>USE stock;
+>DESCRIBE KEYSPACE;
+>CREATE TABLE user ( first_name text, last_name text, PRIMARY KEY (first_name));
+>DESCRIBE TABLE user;
+
 
 
 
