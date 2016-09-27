@@ -8,7 +8,7 @@ docker-machine ip {your virtual machine name}
 
 docker-machine ls  # list virtual machine
 
-docker-machiine help
+docker-machine help
 
 # connect the virtual machine
 
