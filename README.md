@@ -47,6 +47,9 @@ docker exec -it kafaka bash  # go into the container
 >CREATE TABLE user ( first_name text, last_name text, PRIMARY KEY (first_name));
 >DESCRIBE TABLE user;
 
+docker exec -it cassandra bash
+cd /var/lib/cassandra
+ls
 
 
 
