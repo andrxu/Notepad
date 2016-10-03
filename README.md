@@ -14,8 +14,13 @@ Compression yes
 KeepAlive yes
 ServerAliveInterval 60
 LocalForward 55439 remote_server_blah_blah.amazonaws.com:5439
-
 ```
+
+```bash
+ssh gateway
+```
+
+
 
 ### sql dump
 
