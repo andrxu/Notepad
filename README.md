@@ -3,9 +3,10 @@
 ```bash
 vim ~/.ssh/config
 
-# adding following
-Host hop
-HostName hop.remote_gateway.com
+# adding following to the config. Then you can type 'ssh gateway' to establish connection.
+# use localhost:55439 to connect to the remote server remote_server_blah_blah.amazonaws.com:5439
+Host gateway
+HostName gateway.remote_server_blah_blah.com
 User andrew
 IdentityFile ~/.ssh/id_rsa
 Compression yes
