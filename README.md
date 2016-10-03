@@ -1,3 +1,14 @@
+### sql dump
+
+```bash
+ssh andrew@mysql-box.com
+mysqldump -h localhost --databases orders -u [username] -p[password] > ~/orders_dump.sql
+exit
+scp andrew@pmysql-box.com:~/orders_dump.sql ~/local_dump/
+mysql -h localhost -uroot orders < ~/local_dump/orders_dump.sql
+
+```
+
 ### docker commands
 
 ```bash
