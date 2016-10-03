@@ -13,7 +13,9 @@ IdentityFile ~/.ssh/id_rsa
 Compression yes
 KeepAlive yes
 ServerAliveInterval 60
+ForwardAgent yes
 LocalForward 55439 remote_server_blah_blah.amazonaws.com:5439
+#ProxyCommand ssh andrew@gateway.remote_server_blah_blah.com nc %h %p 2> /dev/null
 ```
 
 ```bash
