@@ -1,3 +1,20 @@
+### ssh tunnel
+
+```bash
+vim ~/.ssh/config
+
+# adding following
+Host hop
+HostName hop.remote_gateway.com
+User andrew
+IdentityFile ~/.ssh/id_rsa
+Compression yes
+KeepAlive yes
+ServerAliveInterval 60
+LocalForward 55439 remote_server_blah_blah.amazonaws.com:5439
+
+```
+
 ### sql dump
 
 ```bash
