@@ -88,7 +88,12 @@ docker exec -it cassandra bash
 cd /var/lib/cassandra
 ls
 
-### angularJS
+```
+
+###   angularJS
+
+```bash
+
 cd ~/project/app/src/main/webapp/angular 
 node ~/project/app/node_modules/gulp/bin/gulp
 
