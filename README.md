@@ -97,6 +97,7 @@ ls
 #cd ~/project/app/src/main/webapp/angular 
 node ~/project/app/node_modules/gulp/bin/gulp
 memcached -d -m 24 -p 11211
+lsof -i:8080
 
 
 
