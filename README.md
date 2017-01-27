@@ -111,7 +111,7 @@ psql --host=redshift.fdfdfsdfs.us-west-2.redshift.amazonaws.com --port=5439 --us
 # access sql
 ssh -t jump.your_company.com mysql -h [host server name] -u [your_username] -p[your_password] [database name]
 ```
-# invoke REST api
+### invoke REST api
 
 ``` bash
 ssh -N -L 8443:production.api.your_company.com:443 jump.your_company.com &
