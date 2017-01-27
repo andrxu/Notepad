@@ -119,3 +119,12 @@ And then you can access api via localhost:8443. Example:
 curl -u USERNAME:PASSWORD  -k "https://localhost:8443/api/students/12345"
 
 ```
+
+### svn
+``` bash 
+check out trunk and cd to it
+make sure you have no diffs and that it is up to date
+svn merge http://svn/SSC/feature-branch-path .
+```
+
+
