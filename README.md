@@ -127,4 +127,8 @@ make sure you have no diffs and that it is up to date
 svn merge http://svn/SSC/feature-branch-path .
 ```
 
-
+### sql dump
+``` bash
+mysqldump -h localhost --databases orders -u [username] -p[password] > ~/orders.sql  #create a dump
+scp andrew@blah.your_company.net:~/order.sql .                                       #copy the dump    
+mysql -h localhost -uroot -p orders < orders.sql                                     #import
