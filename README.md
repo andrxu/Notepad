@@ -99,6 +99,8 @@ node ~/project/app/node_modules/gulp/bin/gulp
 memcached -d -m 24 -p 11211
 lsof -i:8080
 
+```
+
 ### AWS keys
 
 ``` bash
@@ -108,3 +110,5 @@ psql --host=redshift.fdfdfsdfs.us-west-2.redshift.amazonaws.com --port=5439 --us
 
 # access sql
 ssh -t jump.your_company.com mysql -h [host server name] -u [your_username] -p[your_password] [database name]
+```
+
