@@ -132,6 +132,9 @@ svn merge http://svn/SSC/feature-branch-path .
 mysqldump -h localhost --databases orders -u [username] -p[password] > ~/orders.sql  #create a dump
 scp andrew@blah.your_company.net:~/order.sql .                                       #copy the dump    
 mysql -h localhost -uroot -p orders < orders.sql                                     #import
+```
 
 ### mvn
+``` bash
 mvn jetty:run -Dbranch=local -DredisUri=redis://localhost:32768 
+``` 
