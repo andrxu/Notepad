@@ -145,3 +145,6 @@ mysql -h localhost -uroot -p orders < orders.sql                                
 ``` bash
 mvn jetty:run -Dbranch=local -DredisUri=redis://localhost:32768 
 ``` 
+### common tools
+* Benchmark - Vegeta
+* Load - JMeter
