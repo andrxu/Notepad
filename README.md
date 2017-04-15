@@ -88,7 +88,11 @@ docker exec -it cassandra bash
 cd /var/lib/cassandra
 ls
 
+docker rm all containers
+docker rmi all images
+
 ```
+
 
 ###   Misc
 
