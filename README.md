@@ -22,7 +22,9 @@ LocalForward 55439 remote_server_blah_blah.amazonaws.com:5439
 ssh gateway
 ```
 
-
+```
+ssh -L 8888:[host name]:80 andrxu@[jump box ip] -N
+```
 
 ### sql dump
 
@@ -102,6 +104,7 @@ docker rmi all images
 node ~/project/app/node_modules/gulp/bin/gulp
 memcached -d -m 24 -p 11211
 lsof -i:8080
+
 
 ```
 
