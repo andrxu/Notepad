@@ -148,3 +148,4 @@ mvn jetty:run -Dbranch=local -DredisUri=redis://localhost:32768
 ### common tools
 * Benchmark - Vegeta
 * Load - JMeter
+* Service monitoring- CloudWatch and integrated with PagerDuty
