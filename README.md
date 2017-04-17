@@ -144,6 +144,8 @@ mysql -h localhost -uroot -p orders < orders.sql                                
 ### mvn
 ``` bash
 mvn jetty:run -Dbranch=local -DredisUri=redis://localhost:32768 
+docker run -it --rm --name my-int-tests -v ~/workspace/order-service:/usr/src/order-service -w /usr/src/order-service -v ~/.m2/settings.xml:/root/.m2/settings.xml --network [dorker_network_id] --env CFG_HOST='cfg:8080' maven:3.3-jdk-8 mvn verify
+
 ``` 
 ### common tools
 * Benchmark - Vegeta
