@@ -92,6 +92,8 @@ ls
 
 docker rm all containers
 docker rmi all images
+docker port [container id] -- show private port -> port exposed
+
 
 ### aws ecs
 clusters -> services -> tasks -> container instance 
