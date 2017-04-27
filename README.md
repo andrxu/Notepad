@@ -93,6 +93,18 @@ ls
 docker rm all containers
 docker rmi all images
 
+### aws ecs
+clusters -> services -> tasks -> container instance 
+ssh to container instance
+inspect ecs agent: http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-introspection.html
+docker ps
+docker exec -it a19989d43674 java -version
+docker exec -it a19989d43674 bash
+ps aux
+
+
+
+
 ```
 
 
